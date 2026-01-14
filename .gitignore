@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtualenv
+venv/
+.venv/
+env/
+ENV/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac / Linux junk
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output fuzz files
+src/out/
+out/
+fuzz_payloads.json
+
+# Large datasets
+*.csv
+datasets/
+data/
+
+# Coverage / test cache
+.coverage
+.pytest_cache/
+
+# Node (se algum dia integrar front)
+node_modules/
