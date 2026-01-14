@@ -7,7 +7,7 @@ Python 3.9+
 Virtualenv (recommended)
 
 ## Installation
-git clone https://github.com/your-user/fuzzml.git
+git clone https://github.com/itzgo/fuzzy_payload.git
 cd fuzzml
 python -m venv venv
 source venv/bin/activate
