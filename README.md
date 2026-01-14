@@ -12,6 +12,7 @@ cd fuzzml
 python -m venv venv
 source venv/bin/activate
 pip install pandas numpy
+Edit config.py and update the CSV_PATH to point to your dataset.
 
 ## Generate fuzz data
 python src/runner.py
